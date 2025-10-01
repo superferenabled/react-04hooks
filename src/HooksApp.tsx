@@ -1,9 +1,9 @@
-import { TrafficLightWithEffectWithHook } from './02useEffect/TrafficLightWithEffectWithHook';
+import { FocusScreen } from './04useRef/FocusScreen';
 
 export const HooksApp = () => {
     return (
         <div className="bg-gradient">
-            <TrafficLightWithEffectWithHook />
+            <FocusScreen />
         </div>
     )
 }
