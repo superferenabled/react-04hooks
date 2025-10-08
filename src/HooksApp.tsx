@@ -1,10 +1,12 @@
-import {TasksApp} from "@/05useReducer/TaskApp.tsx";
-
+import {InstagromApp} from "@/07useOptimistic/InstagromApp.tsx";
+import { Toaster } from 'sonner'
 
 export const HooksApp = () => {
     return (
         <div className="bg-gradient">
-            <TasksApp />
+            <Toaster />
+            <InstagromApp />
         </div>
+
     )
 }
